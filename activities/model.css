@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+header{
+    background-color:rgb(250, 185, 100);
+    padding: 50px;
+    margin: 25px;
+}
+
+header h1 {
+    background-color: aquamarine;
+    border-style: solid;
+    border-color: black;
+    border-width: 20px;
+}
+
+nav {
+    background-color: rgb(116, 89, 50);
+    border: 5px dashed rebeccapurple;
+}
+
+footer {
+    background-color: rgb(172, 88, 88);
+    border-style: dotted;
+}
+
+main h1{
+    border: 3px dotted blue;
+    width: 50%;
+    height: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 25px;
+}
+
+main p{
+    border: thick solid brown;
+    padding: 10px 20px 30px 40px;
+}

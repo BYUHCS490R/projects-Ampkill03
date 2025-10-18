@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: aquamarine;
+}
+p {
+    color: blueviolet;
+}
+header h1 {
+    color: orangered;
+}
+#me {
+    color: chocolate;
+}
+.crimson {
+    color: crimson;
+    font-size: 14pt;
+}
+.standout {
+    font-weight: 800;
+}
