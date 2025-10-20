@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="grid.css">
 </head>
 <body>
-    <div id="wrapper">
         <header>
             <h1>Aloe's Web Design Site</h1>
             </header>
@@ -16,18 +15,21 @@
             <a href="#">link</a>
             <a href="#">link</a>
         </nav>
-        <main>
-            <h1>CSS Grid</h1>
-            <div class="parent">
-                <p class="child">Please describe the parent-child relationship in HTML and why it becomes essential when using flex and grid.
-                <p class="child">Child 2</p>
-                <p class="child">Child 3</p>
-            </div>
-        </main>
-        <footer>
-            <p>&copy; 2025 Aloe Pereira
-        </footer>
-    </div>
-    
+    <main>
+        <h1>CSS Grid</h1>
+        <div class="parent">
+            <p class="child">Child 1</p>
+            <p class="child">Child 2</p>
+            <p class="child">Child 3</p>
+        </div>
+        <p><strong>Please describe the parent-child relationship in HTML and why it becomes essential when using flex and grid.</strong></p>
+        <p>In HTML, the parent-child relationship means one element (the parent) contains another element (the child) inside it. This is important because it decides how elements are connected and displayed on a webpage. When using Grid, the parent element controls how its child elements are arranged like in rows, columns, or evenly spaced boxes. Only the direct children of a grid container follow those layout rules. Without this parent-child setup, Grid layouts won't work correctly.</p>
+        <p><strong>What are the two main differences between CSS Grid and CSS Flex?</strong></p>
+        <p>Flexbox is one-dimensional, arranging items in a single row or column, while Grid is two-dimensional, controlling both rows and columns.</p>
+        <p>Flexbox focuses on aligning content based on its size, while Grid focuses on creating structured layouts with predefined rows and columns.</p>
+    </main>
+    <footer>
+        <p>&copy; 2025 Aloe Pereira</p>
+    </footer>
 </body>
 </html>

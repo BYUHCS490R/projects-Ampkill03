@@ -3,19 +3,13 @@ body {
 }
 .parent {
     display: grid;
-    grid-template-columns: 5fr 5fr 1fr;
+    grid-template-columns: 5fr 5fr 5fr;
+    grid-template-rows: 5fr 5fr 5fr;
     gap: 10px;
 }
 .child {
-    background-color: rgb(255, 115, 122);
-    margin: 10px;
-}
-#wrapper {
-    display: grid;
-    grid-template-areas: 
-    "top top top" 
-    "lside middle rside"
-    "bottom bottom bottom";
+    background-color: #ff737a;
+    margin: auto;
 }
 header { 
     grid-area: top;
