@@ -4,57 +4,45 @@ body {
     url("photos/hawaiian.png") repeat;
     
   background-size: 200px auto,auto;
-  
   font-family: "Poppins", sans-serif;
-  background-color: #004d40; /* deep tropical green */
+  background-color:#004d40;
   color: #f0f0f0;
   margin: 0;
 }
-
-/* Header, Nav, Footer */
 header {
   text-align: center;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 1rem;
   border-bottom: 2px solid #009688;
 }
-
 nav a {
   color: #80cbc4;
   text-decoration: none;
   padding: 0.5rem;
   font-weight: 500;
 }
-
 nav a:hover {
   color: #ffeb3b;
 }
-
 nav a.current {
   color: #ff7043;
   font-weight: bold;
 }
-
 footer {
   text-align: center;
   color: #dddcdc;
   padding: 1rem;
   border-top: 2px solid #009688;
 }
-
 .places {
   list-style-image: url("photos/hibiscus.png");
   padding-left: 2rem;
 }
-
-/* Image styling */
 img {
   max-width: 100%;
   height: auto;
   border-radius: 12px;
 }
-
-/* Section styling */
 main {
   max-width: 1000px;
   margin: 2rem auto;
