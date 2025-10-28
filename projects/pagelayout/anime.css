@@ -79,10 +79,10 @@ main h2 {
     background-color: #1f1f27;
     border: 1px solid #4a4a5c;    
     border-radius: 10px;          
-    box-shadow: 0 10px 20px rgba(0,0,0,0.7); /
+    box-shadow: 0 10px 20px rgba(0,0,0,0.7);
     text-align: center;
     overflow: hidden;
-    color: #ececff;
+    color: #babaca;
 }
 .pic img {
     display: block;
