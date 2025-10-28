@@ -1,0 +1,118 @@
+#wrapper {
+    width: 880px;                 
+    margin: 0 auto;               
+    background-color: #1a1a1f;
+    border: 1px solid #3a3a4a;    
+    border-radius: 12px;          
+    box-shadow: 0 20px 40px rgba(0,0,0,0.6); 
+    overflow: hidden;
+    line-height: 1.5;    
+    font-family: "Roboto", Arial, sans-serif;
+    color: #f1f1f1;
+}
+header {
+    background-image: url("stars.webp"); 
+    background-size: cover;                
+    background-origin: border-box;         
+    background-clip: border-box;           
+    color: #fff;
+    padding: 2rem;                         
+    text-align: center;                    
+    border-bottom: 4px solid rgba(255,255,255,0.3);
+}
+header h1 {
+    font-family: "Georgia", "Times New Roman", serif; 
+    font-size: 2.2rem;             
+    font-weight: 700;              
+    text-transform: uppercase;     
+    text-shadow: 0 2px 4px rgba(0,0,0,0.7); 
+    margin: 0;
+    line-height: 1.2;
+}
+.tagline {
+    font-size: 1rem;
+    font-style: italic;            
+    font-weight: 400;
+    margin-top: 0.5rem;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+    color: #f9f9f9;
+}
+nav {
+    background-color: #3a2a63;
+    padding: 0.75rem 1rem;       
+    text-align: center;
+    border-bottom: 2px solid #1d1434;
+}
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 0 1rem;              
+    padding: 0.5rem 0.75rem;
+    border-radius: 8px;
+    display: inline-block;
+    line-height: 1.4;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+nav a:hover {
+    background-color: #ffffff;
+    color: #3a2a63;
+}
+main {
+    padding: 1.5rem;
+    background-color: #2a2a33;
+    color: #f1f1f1;
+    min-height: 300px;         
+}
+main h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 0;
+    color: #bca7ff;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.8);
+}
+.pic {
+    width: 260px;                 
+    float: right;                 
+    margin: 0 0 1rem 1rem;        
+    background-color: #1f1f27;
+    border: 1px solid #4a4a5c;    
+    border-radius: 10px;          
+    box-shadow: 0 10px 20px rgba(0,0,0,0.7); /
+    text-align: center;
+    overflow: hidden;
+    color: #ececff;
+}
+.pic img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #4a4a5c;
+}
+.pic figcaption {
+    padding: 0.75rem;             
+    font-size: 0.9rem;
+    line-height: 1.4;              
+    font-style: italic;            
+    background-color: #2f2f3a;
+    color: #d4d4ff;
+}
+main p {
+    font-size: 1rem;
+    line-height: 1.6;              
+    text-align: left;
+    margin-bottom: 1rem;
+    color: #e2e2e2;
+}
+footer {
+    background-image: url("stars.webp");  
+    background-size: cover;
+    background-origin: content-box;  
+    background-clip: padding-box; 
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
+    border-top: 4px solid rgba(0,0,0,0.5);
+}
