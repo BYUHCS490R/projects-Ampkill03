@@ -45,7 +45,7 @@ nav a:hover {
     display: flex;
 }
 
-@media ONLY screen AND (max-width: 500) {
+@media ONLY screen AND (max-width: 500px) {
     nav {
         flex-direction: column;
     }
