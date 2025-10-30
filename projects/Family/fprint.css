@@ -1,0 +1,48 @@
+@media print {
+  nav,
+  header nav,
+  .bar nav {
+    display: none !important;
+  }
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-family: Georgia, "Times New Roman", serif !important;
+    font-size: 12pt !important;
+    line-height: 1.4 !important;
+  }
+  .wrap,
+  main,
+  aside,
+  .cards {
+    display: block !important;
+    width: 100% !important;
+  }
+  .card,
+  .family-shot,
+  aside,
+  figure {
+    background: #ffffff !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+
+  .card::after {
+    display: none !important;
+  }
+  img {
+    max-width: 100% !important;
+    height: auto !important;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  article {
+    break-inside: avoid;
+    page-break-inside: avoid;
+    margin-bottom: 12pt;
+  }
+  .wrap {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
