@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.schedule {
+    border: 2px outset black;
+    border-spacing: 5px;
+    border-collapse: collapse;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    caption-side: bottom;
+
+}
+
+
+.schedule  th {
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.schedule thead tr{
+    background-color: rgb(250, 190, 190);
+}
+
+.schedule tbody tr:nth-child(even) {
+    background-color: rgb(184, 179, 179);
+}
+
+.schedule tfoot{
+    background-color: rgb(250, 190, 190); 
+}
+
+.schedule td {
+    border: 1px solid black;
+    padding: 5px;
+}
