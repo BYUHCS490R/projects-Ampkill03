@@ -2,26 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Anime Club Registration Form</title>
+    <title>Aloe's Club Registration Form</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="form.css">
 </head>
 <body>
     <header>
-        <h1>Anime Club Registration</h1>
+        <h1>Aloe Club Registration</h1>
         <p>Join the squad and never miss a new episode!</p>
     </header>
     <main>
-        <form action="#" method="post">
+        <div id="message"></div>
+        <form id="myForm" action="#" method="post">
             <fieldset>
                 <legend>Account Information</legend>
                 <div class="form-row">
                     <label for="fullname">Full Name:</label>
-                    <input type="text" id="fullname" name="fullname" required>
+                    <input type="text" id="fullname" name="fullname" value="">
                 </div>
                 <div class="form-row">
                     <label for="email">Email Address:</label>
-                    <input type="email" id="email" name="email" required>
+                    <input type="email" id="email" name="email">
                 </div>
                 <div class="form-row">
                     <label for="phone">Phone Number:</label>
@@ -29,11 +30,11 @@
                 </div>
                 <div class="form-row">
                     <label for="password">Create Password:</label>
-                    <input type="password" id="password" name="password" required>
+                    <input type="password" id="password" name="password">
                 </div>
                 <div class="form-row">
                     <label for="joindate">Preferred Join Date:</label>
-                    <input type="text" id="joindate" name="joindate" placeholder="YYYY-MM-DD" pattern="\d{4}-\d{2}-\d{2}" required>
+                    <input type="text" id="joindate" name="joindate" placeholder="YYYY-MM-DD" pattern="\d{4}-\d{2}-\d{2}">
                 </div>
             </fieldset>
             <fieldset>
@@ -89,7 +90,7 @@
                     <div class="label"></div>
                     <div class="options">
                         <label class="terms-label">
-                            <input type="checkbox" name="agree" required>
+                            <input type="checkbox" name="agree" >
                             I agree to the club rules and terms.
                         </label>
                     </div>
@@ -117,30 +118,21 @@
         <ul>
             <li>React</li>
         </ul>
+        <p>What is AJAX?</p>
+        <ul>
+            <li>AJAX is a way for a webpage to get or send data without reloading the whole page.</li>
+        </ul>
+        <p>Why do you put your JS Code in a separate file?</p>
+        <ul>
+            <li>It keeps your code organized</li>
+            <li>It makes your HTML cleaner</li>
+            <li>The file can be reused on other pages</li>
+            <li>The website loads faster because the browser can cache it</li>
+        </ul>
     </main>
     <footer>
         <p>&copy; 2025 Aloe Pereira</p>
     </footer>
-    <script>
-        document.getElementById('myForm').addEventListener('sumbit',function(event) {
-            event.preventDefault();
-            alert("Form Submitted");
-
-            const fullname = document.getElementById('fullname').value;
-            const email = document.getElementById('email').value;
-            const phonenumber = document.getElementById('phonenumber').value;
-            const password = document.getElementById('password').value;
-
-            if (!fullname) {
-                alert("You need a name.");
-                return;
-            }
-
-            if (!email) {
-                alert("You need a email.");
-                return;
-            }
-        });
-    </script>
+    <script src="form.js"></script>
 </body>
 </html>
