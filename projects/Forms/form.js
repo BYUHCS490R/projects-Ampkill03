@@ -66,6 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     try {
                         const response = JSON.parse(xhr.responseText);
                         statusMessage.textContent = response.message || 'Form submitted successfully!';
+                        statusMessage.classList.add('show');
                         form.reset();
                         Array.from(form.elements).forEach(el => {
                             el.disabled = true;
