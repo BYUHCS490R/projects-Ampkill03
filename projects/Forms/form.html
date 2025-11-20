@@ -12,7 +12,7 @@
         <p>Join the squad and never miss a new episode!</p>
     </header>
     <main>
-        <form action="#" method="post">
+        <form id="animeForm" action="#" method="post">
             <fieldset>
                 <legend>Account Information</legend>
                 <div class="form-row">
@@ -33,7 +33,9 @@
                 </div>
                 <div class="form-row">
                     <label for="joindate">Preferred Join Date:</label>
-                    <input type="text" id="joindate" name="joindate" placeholder="YYYY-MM-DD" pattern="\d{4}-\d{2}-\d{2}" required>
+                    <input type="text" id="joindate" name="joindate"
+                           placeholder="YYYY-MM-DD"
+                           pattern="\d{4}-\d{2}-\d{2}" required>
                 </div>
             </fieldset>
             <fieldset>
@@ -100,9 +102,11 @@
                 <button type="submit">Join the Anime Club</button>
             </div>
         </form>
+        <div id="statusMessage"></div>
     </main>
     <footer>
         <p>&copy; 2025 Aloe Pereira</p>
     </footer>
+    <script src="form.js"></script>
 </body>
 </html>

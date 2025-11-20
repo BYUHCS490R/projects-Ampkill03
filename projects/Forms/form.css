@@ -156,7 +156,6 @@ input[type="checkbox"] {
     transform: translateY(0);
     box-shadow: 0 2px 7px rgba(0, 0, 0, 0.4);
 }
-
 @media only screen and (max-width: 600px) {
     main {
         padding: 0.5rem;
