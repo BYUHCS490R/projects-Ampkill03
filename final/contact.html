@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aloe's Anime Hub - Contact & Feedback</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="final.css">
+</head>
+<body class="contact-page">
+    <header>
+        <h1>Aloe's Anime Hub</h1>
+        <p>Share your anime favorites and suggestions!</p>
+        <nav>
+            <ul>
+                <li><a href="final.html">Home</a></li>
+                <li><a href="recommend.html">Top Anime</a></li>
+                <li><a href="characters.html">Character Spotlights</a></li>
+                <li><a href="genres.html">Genres</a></li>
+                <li><a href="culture.html">Art & Fandom</a></li>
+                <li><a href="contact.html" class="active">Contact & Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Contact & Feedback</h2>
+            <p>
+                I'd love to hear from you! Tell me your favorite anime, the genres you enjoy,
+                or any ideas to improve this site.
+            </p>
+        </section>
+
+        <section>
+            <form id="feedbackForm">
+                <div class="form-row">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+
+                <div class="form-row">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-row">
+                    <label for="favoriteAnime">Your Favorite Anime:</label>
+                    <input type="text" id="favoriteAnime" name="favoriteAnime">
+                </div>
+
+                <div class="form-row">
+                    <label for="favoriteGenre">Your Favorite Genre:</label>
+                    <select id="favoriteGenre" name="favoriteGenre">
+                        <option value="">--Please choose--</option>
+                        <option value="Action">Action</option>
+                        <option value="Fantasy">Fantasy</option>
+                        <option value="Romance">Romance</option>
+                        <option value="Comedy">Comedy</option>
+                        <option value="Slice of Life">Slice of Life</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-row">
+                    <label for="yearsWatching">How many years have you watched anime?</label>
+                    <input type="number" id="yearsWatching" name="yearsWatching" min="0" max="50">
+                </div>
+
+                <div class="form-row">
+                    <label for="comments">Comment or Feedback:</label>
+                    <textarea id="comments" name="comments" rows="4"></textarea>
+                </div>
+
+                <button type="submit">Send Feedback</button>
+            </form>
+
+            <p id="statusMessage" class="hidden"></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Aloe's Anime Hub · Final Project</p>
+    </footer>
+    <script src="final.js"></script>
+</body>
+</html>
